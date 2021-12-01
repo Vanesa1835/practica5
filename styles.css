@@ -1,0 +1,300 @@
+/*
+Design by Flash-Templates-Today.com
+http://www.flash-templates-today.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+/**/
+a:link {
+	color: #8eabaf;
+}
+/*Esta parte muestra como a los links o hipervínculos se ponen 
+del color establecido por el código hexadecimal con la etiqueta color*/
+/*La etiqueta text decoration se utiliza para establecer que el texto está subrayado*/
+
+a:hover {
+	text-decoration: underline;
+	color: #8eabaf;
+}
+
+a:visited {
+	color: #8eabaf;
+}
+
+*
+{
+/*La etiqueta de border establece los bordes de la hoja de estilos*/
+
+border: 0;
+/*La etiqueta más bien establecer los márgenes de la hoja de estilo*/
+
+margin: 0;
+}
+
+body
+{
+/*El background define el color de fondo o ya sea una imagen*/
+
+	background: #ffffff url(images/back_all.jpg) repeat-x top;
+	font: 12px Tahoma, Arial, Helvetica, sans-serif;
+	color: #666666;
+	margin-top: 10px;
+}
+
+
+#main
+{
+margin: 0 auto;
+/*La etiqueta width define el ancho de un elemento el valor se puede escribir en píxeles ems o porcentaje*/
+
+width: 1050px;
+background: url(images/) no-repeat;
+
+}
+
+
+.fotoprincipal {
+	padding: 150px 50px 50px 50px;
+	border: 5px;
+
+
+}
+
+#logo
+{
+padding-left: 30px;
+text-align: left;
+padding-top: 30px;
+height: 40px;
+
+
+}
+
+#logo a {
+/
+/*La etiqueta tex transformation especifica el cambio entre mayúsculas y minúsculas del texto de un elemento puede ser usado para que un 
+texto aparezca simplemente mayúsculas o minúsculas o con la letra de cada palabra en mayúscula*/
+
+	text-decoration: none;
+
+	text-transform: lowercase;
+	*La etiqueta font size especifica las dimensiones de la letra este tamaño puede
+	 a su vez alterar el aspecto de alguna otra cosa ya que se usa para calcular
+*/
+	font-size: 16px;
+	color: #ffffff;
+/*El font weight especifica el peso obeso de la letra algunos tipos 
+de letras es solo están disponibles en normal y bold*/
+
+	font-weight: bold;
+}
+
+
+#logo H2 a
+{
+font-size: 20px;
+text-decoration: none;
+color: #ffffff;
+}
+
+
+
+#buttons li {
+	display: inline;
+}
+
+#buttons a {
+/*El float ubica un elemento al lado izquierdo derecho de su contenedor permitiendo a los elementos del
+ texto y en línea aparecer en su costado*/
+
+	display: block;
+/**/
+
+	float: left;
+	width: 120px;
+	height: 30px;
+	margin-left: 1px;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 10px;
+
+}
+
+#buttons a:hover {
+	text-decoration: underline;
+	color: #119afa;
+}
+
+#content
+{
+width: 870px;
+padding: 15px;
+}
+
+#left
+{
+	color: #000000;
+width: 580px;
+padding: 10px;
+}
+
+#left h1
+{
+color: #000000;
+margin: 0;
+padding: 0;
+font-size: 26px;
+}
+#left H2
+{
+color: #000000;
+margin: 0;
+padding: 0;
+font-size: 18px;
+padding-top: 10px;
+}
+
+#left a
+{
+ color: #000000;
+}
+
+#left a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+#left a:visited {
+	color: #000000;
+}
+
+.small
+{
+margin: 15px;
+padding: 5px;
+border: 1px solid #99A067
+}
+
+#right
+{
+float: right;
+width: 254px;
+}
+#calendar1 {
+	padding: 0 10px 20px 10px;
+}
+
+#calendar table {
+	width: 100%;
+	text-align: center;
+}
+
+#calendar thead {
+	background: #F1F1F1;
+}
+
+#calendar tbody td {
+	border: 1px solid #F1F1F1;
+}
+
+#calendar #prev {
+	text-align: left;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+#calendar tfoot a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#calendar #now {
+	background: #b1b1b1;
+	border: 1px solid #000000;
+	font-weight: bold;
+	color: #ffffff
+}
+#sidebar 
+{
+width: 254px;
+}
+
+#sidebar ul 
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: url(images/title_back.gif) no-repeat;
+}
+
+#sidebar li 
+{
+	margin-bottom: 15px;
+
+}
+
+#sidebar li ul {
+	padding: 10px;
+	border-top: none;
+}
+
+#sidebar li li {
+	margin: 0;
+	padding: 3px 0;
+}
+
+
+#sidebar li h2 {
+	height: 34px;
+	margin: 0;
+	padding: 10px 0 0 20px;
+	background: #8eabaf url(images/title.gif) no-repeat;
+	font-size: 18px;
+	color: #ffffff;
+	text-align:center;
+}
+
+#sidebar a:link {
+	text-decoration: none;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+#sidebar a:visited {
+		text-decoration: none;
+}
+
+#sidebar li a {
+	padding-left: 10px;
+	background: url(images/img09.gif) no-repeat 1px 5px;
+}
+
+
+#footer
+{
+	background: url(images/footer.gif) repeat-x;
+	height: 52px;
+	font-size: 10px;
+	color: #ffffff;
+	padding-top: 20px;
+	text-align: center;
+	border-top: #ffffff solid 5px;
+}
+
+#footer a
+{
+color: #ffffff;
+font-size: 10px;
+text-decoration: none;
+}
+.padding
+{
+padding: 10px;
+color:#FF0000;
+font-weight: bold;
+}
